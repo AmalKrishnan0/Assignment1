@@ -29,57 +29,69 @@
                 <a class="nav-link active" aria-current="page" href="index.html">HOME<span class="sr-only"></span></a>
               </li>
               
-              
               <li class="nav-item px-2">
-                <a class="nav-link" href="district.html">DISTRICTS </a>
-              </li>
-
-              <li class="nav-item px-2">
-                <a class="nav-link bg-primary" href="login.html">LOG IN</a>
+                <a class="nav-link" href="district.html">DISTRICTS</a>
               </li>
               <li class="nav-item px-2">
-                <a class="nav-link" href="signup.html">SIGN UP</a>
+                <a class="nav-link" href="login.html">LOG IN</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link bg-primary" href="signup.html">SIGN UP</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>     
     </header> 
-
-    <!-- login form -->
-
+         
     <div class="container">
       <div class="header">
-        <h2>Login</h2>
+        <h2>Sign Up</h2>
       </div>
-      <form id="form" class="form" action ="index.html">
-        
+      <form id="form" class="form" action="login.html">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" placeholder="username" id="username" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
         <div class="form-control">
           <label for="username">Email</label>
-          <input type="email" placeholder="email" id="email1" />
+          <input type="email" placeholder="email" id="email" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="username">Phone No</label>
+          <input type="text" placeholder="phone number" id="number" />
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div> 
+        <div class="form-control">
+          <label for="username">Password</label>
+          <input type="password" placeholder="Password" id="password">
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
         
         <div class="form-control">
-          <label for="username">Password</label>
-          <input type="password" placeholder="Password" id="password1"/>
+          <label for="username">Confirm Password</label>
+          <input type="password" placeholder="confirm password" id="password2"/>
           <i class="fas fa-check-circle"></i>
           <i class="fas fa-exclamation-circle"></i>
           <small>Error message</small>
         </div>
-        
-
-        
-    
         <button>Submit</button>
       </form>
-    </div> 
-    
+    </div>
     
 
-   <footer>
+
+    <footer>
       <div class="last"> 
        <h4><b>ADDRESS :<br></h4>
        <p><br>ADOOR, PATHANAMTHITTA</p>
@@ -89,10 +101,7 @@
      <h5 class="hh"><b>COPYRIGHT@2021</h5>
      </footer>
 
-
      <script src="form.js"></script>
-
-
     
 </body>
 </html>
